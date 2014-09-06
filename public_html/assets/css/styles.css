@@ -1,0 +1,40 @@
+body{
+    font-family: "Arial";
+    font-size: 14px;
+    background: #f6f6f6;
+}
+h1{
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+form{
+    width: 500px;
+    min-height: 350px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    margin:-380px 0 0 -250px;
+    border:1px solid #ccc;
+    padding: 30px;
+    background: #fff;
+}
+label{
+    width: 100%;
+}
+select,
+input[type="text"], 
+textarea,
+.form-control
+{
+    width:100%;
+    display: block;
+    border-radius:0;
+    font-size: 12px;
+}
+textarea.form-control{
+    height: 150px;
+}
